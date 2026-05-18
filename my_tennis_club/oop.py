@@ -1,10 +1,9 @@
 class person:
-    def __init__(self,name,age):
+    def __init__(self,name,):
         self.name = name
-        self.age = age
-    
-p1=person("Emil",36)
 
-print(p1.name)
-print(p1.age)
+        def greet(self):
+            print("hello,my name is " + self.name)
 
+p1=Person("Email")
+p1.greet()
